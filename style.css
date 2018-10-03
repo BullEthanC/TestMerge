@@ -1,0 +1,100 @@
+﻿body 
+{ text-align:center; height: 100%;background-image: url("Improved.png");overflow:hidden;width:100%; color: white;}
+h1{
+  color: white;
+  font-family: courier;
+}
+.rectangle{
+ position: absolute;
+ left: 50%; 
+ top: 50%; 
+ margin-top: -250px; 
+ margin-left: -200px; 
+ height: 450px;
+ width: 250px;
+ background-color:#555; 
+ border-left: solid 70px transparent; 
+ border-right: solid 70px transparent; 
+ border-bottom: solid 40px transparent; 
+ filter: drop-shadow(0 0 20px #333);
+ opacity: 0.9;
+}
+.div
+
+div.absolute {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 0;
+
+
+button
+{
+    position: absolute;
+    left: 0;
+    right:0%;
+    background-color: White;
+    border: none;
+    color: Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:active 
+{
+    background-color: Gray;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+button:hover 
+{
+    cursor: pointer;
+    background-color: DarkGray;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input[type="text"]
+{
+    position: absolute;
+    left: 0;
+    right: 0%;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+    color="white";
+}
+input[type="text"]:active
+{
+    color="white";
+}
+select
+{
+    position: absolute;
+    left: 0;
+    right: 0%;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+}
+option
+{
+    background-color: White;
+}
+::placeholder 
+{
+    color: black;
+    opacity: 1;
+}
+:-ms-input-placeholder 
+{
+    color: black;
+}
+::-ms-input-placeholder 
+{ 
+    color: black;
+}
